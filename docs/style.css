@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #0b0b14, #1a1a2e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Comic Sans MS", cursive;
+  color: #fff;
+  overflow: hidden;
+}
+
+#container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  min-height: 70px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+/* Button animation */
+button:hover {
+  transform: scale(1.1);
+}
+
+#yesBtn {
+  background: #ff9acb;
+}
+
+#noBtn {
+  background: #ccc;
+  position: relative;
+}
+
+#loveImage {
+  display: none;
+  margin-top: 20px;
+  max-width: 80%;
+  border-radius: 20px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  h1 { font-size: 22px; }
+}
